@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Coffee</title>
+    <!--linking font awsome for icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+     <!--linling swipper css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- Header / Navbar-->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">☕Cafe Coffee</h2>
+            </a>
+            <ul class ="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                 <li class="nav-item">
+                    <a href="aboutus.html" class="nav-link">About</a>
+                </li>
+                 <li class="nav-item">
+                    <a href="menu.html" class="nav-link">Menu</a>
+                </li>
+                 <li class="nav-item">
+                    <a href="#" class="nav-link">Testimonials</a>
+                </li>
+                 <li class="nav-item">
+                    <a href="Gallery.html" class="nav-link">Gallery</a>
+                </li>
+                 <li class="nav-item">
+                    <a href="Contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+    <main>
+        <section class="testimonials-section"> 
+            <h2 class="section-title">Testimonials</h2>
+            <div class="section-content swiper">
+                <div class="slider-wrapper">
+                    <ul class="testimonials-list  swiper-wrapper">
+                        <li class="testimonial swiper-slide">
+                            <img src="image\Sarah k.png" alt="Sarah k" class="user-image">
+                            <h3 class="name">Sarah k</h3>
+                            <i class="feedback">Cafe Coffee is my go-to spot every morning! Their cappuccino is always perfectly balanced, and the cozy atmosphere makes me feel right at home.</i>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="image\John.png" alt="John" class="user-image">
+                            <h3 class="name">John</h3>
+                            <i class="feedback">I love how fresh the beans taste here. The iced latte is a lifesaver during hot days, and the staff is super friendly.</i>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="image\Emily.png" alt="Emily" class="user-image">
+                            <h3 class="name">Emily</h3>
+                            <i class="feedback">Best mocha in town! The mix of chocolate and espresso is just perfect. Plus, their pastries are a must-try.</i>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="image\Sophia.png" alt="Sophia" class="user-image">
+                            <h3 class="name">Sophia</h3>
+                            <i class="feedback">Tried the cold brew for the first time here, and now I’m addicted! Highly recommend this café to anyone who loves good coffee. </i>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="image\Chris.png" alt="Chris" class="user-image">
+                            <h3 class="name">Chris</h3>
+                            <i class="feedback">I often work from Cafe Coffee, and it’s the ideal place to focus. Great Wi-Fi, amazing coffee, and such a relaxing vibe.</i>
+                        </li>
+                    </ul>
+                    <div class=" swiper-pagination"></div>
+                    <div class="swiper-slide-button swiper-button-prev"></div>
+                    <div class="swiper-slide-button swiper-button-next"></div>
+                </div>
+            </div>       
+    </main>
+    
+<!-- linking swiper script-->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script> 
+  <script src="script.js"></script>  
+</body>
+</html>
